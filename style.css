@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Arial' sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 1rem 3rem;
+    text-align: center;
+}
+button {
+    margin-top: 1rem;
+    padding: .5rem 1rem;
+    background: transparent;
+}
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+button:hover {
+    border: solid 2px red;
+    color: red;
+    cursor: pointer;
+}
